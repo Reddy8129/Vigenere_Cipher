@@ -26,7 +26,7 @@ public class VigenereBreaker {
 		return key;
 
 	}
-	void breakVigenere()
+	void breakVigenere() throws Exception
 	{
 		HashMap<String, HashSet<String>> allDict = new HashMap<String,HashSet<String>>();
 		String[] languages ={"Danish", "Dutch", "English", "French", "German", "Italian", "Portuguese","Spanish"};
